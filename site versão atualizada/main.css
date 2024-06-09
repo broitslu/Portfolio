@@ -1,0 +1,402 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: rgb(136, 82, 136);
+
+}
+
+header {
+    background-color: #f0f0f0a4;
+    padding: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-left: 15px ;
+    border-bottom: 2px solid #504a4a; 
+    border-bottom-style: outset; 
+    display: flex;
+    align-items: center;
+    height: 100px; /* set a fixed height for the header */
+  
+}
+
+header h1 {
+    flex: 1;
+    font-family: serif;
+    font-size: 40px;
+    margin-left: 40px;
+}
+header nav {
+    flex: 1;
+    text-align: left;
+}
+
+a {
+  font-family: serif;
+}
+
+header nav ul {
+    margin-left: 20px; 
+    padding-left: 50px; /* add some padding to create space between the edge of the header and the links */
+  }
+
+header nav ul li {
+    margin-right: 100px; /* add some margin between each link */
+  }
+
+nav ul {
+    list-style: none;
+    padding: 40px;
+    
+    display: flex;
+    margin: 0px;
+    
+    font-size: 25px;
+    margin-top: 0px; /* add this line to lower the entire <ul> element */
+    
+}
+
+.nav li {
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: rgb(231, 154, 231) 
+}
+.container {
+    margin-top: 25px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+  }
+  .texto-sobre-imagem {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px; /* Espaçamento interno */
+    font-family: serif;
+    font-size: 50px; /* Tamanho da fonte */
+    color: rgb(231, 154, 231); 
+  }
+  .container img {
+    width: 100%; /* adjust the width to your liking */
+    margin-right: 10px; /* add some space between the image and text */
+    align-items: center;
+  }
+  
+  .container p {
+    margin-top: 10px;
+    text-align: center;
+    font-family: serif;
+    font-size:30px;
+
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0px;
+    font-family: serif;
+   }
+  
+  .image-container {
+    margin: 10px;
+    width: 22%; /* adjust the width to your liking */
+  }
+
+  .gallery-image {
+    width: 100%;
+    height: 150px; /* adjust the height to your liking */
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .title {
+    font-size: 5px;
+    font-weight: bold;
+    margin-top: 5%;
+    font-family: serif;
+  }
+  .year {
+    font-size: small;
+    font-weight: 10;
+    font-family: serif;
+  }
+  
+  .caixinha {
+    background-color: #460e57a4;
+    border: 1px solid #763e86a4;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+  .bio-gallery-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .bio {
+    flex: 1;
+    font-size: 10px;
+    text-align: justify; /* Justifica o texto */
+    margin-left: 20px;
+    line-height: 1.3; /* Espaçamento entre as linhas */
+    margin-bottom: 20px; /* Espaçamento entre parágrafos */
+}
+
+  
+  .gallery {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+ 
+  /*about*/
+
+  .aboutmain {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: serif;
+    font-size: 25px;
+  }
+  
+  .aboutphoto {
+    width: 750px;
+    margin: 20px;
+    margin-top: 1px;
+    border-radius: 70px; /* Define uma borda circular */
+    overflow:scroll; /* Garante que a imagem se ajuste à borda circular */
+  }
+  
+  .aboutheader {
+    flex: 1;
+    margin: 20px;
+    text-align: center;
+    
+  }
+  .underline {
+      text-decoration: underline; /* Adiciona sublinhado */
+    }
+
+  .aboutheader h1,.aboutheader h2 {
+    margin: 100px;
+}
+  
+
+  .aboutmain h1 {
+    font-family: system-ui;
+    margin-top: 0px;
+    font-size: 30px;
+    margin-bottom: 0%;
+  }
+  .aboutme {
+    flex:1;
+    margin:20px;
+    font-family:serif;
+  }
+
+
+/*my work*/
+
+  body {
+    margin: 0;
+    font-family: serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #000000;
+  }
+  .gale {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+
+.gale img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 16px;
+}
+
+.naquele-dia {
+    flex: 1;
+}
+.naquele-dia h1 {
+    font-size: 27px;
+    margin-bottom: 10px;
+    justify-items: center;
+    font-family: serif;
+    text-align: center;
+}
+
+.naquele-dia p {
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.gale2 {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.gale2 img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 16px;
+}
+
+.falhas {
+  flex: 1;
+}
+
+.falhas h1 {
+  font-size: 27px;
+  margin-bottom: 10px;
+  font-family: serif;
+  text-align: center 
+}
+
+.falhas p {
+  font-size: 25px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.gale3 {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.gale3 img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 16px;
+}
+
+.crave {
+  flex: 1;
+}
+
+.crave h1 {
+  font-size: 27px;
+  margin-bottom: 10px;
+  font-family: serif;
+  text-align: center 
+}
+
+.crave p {
+  font-size: 25px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+
+
+.gale4 {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.gale4 img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 16px;
+}
+
+.leaozinho {
+  flex: 500;
+}
+
+.leaozinho h1 {
+  font-size: 27px;
+  margin-bottom: 10px;
+  font-family: serif;
+  text-align: center ;
+}
+
+.leaozinho p {
+  font-size: 25px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* contact */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  font-family: serif;
+}
+
+main h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-family: serif;
+}
+
+main p {
+  font-size: 25px;
+  line-height: 1.6;
+}
+
+/* Estilos para a caixa de contato */
+.contact-box {
+  display: flex;
+  align-items: center;
+  background-color:#9f90a7b6;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+  padding: 30px;
+  font-family: serif;
+}
+
+.contact-box img {
+  width: 90px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.contact-info {
+  flex: 10;
+}
+
+.contact-info h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: serif;
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin: 5px 0;
+  font-family: serif;
+}
